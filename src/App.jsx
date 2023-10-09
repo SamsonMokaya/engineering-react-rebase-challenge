@@ -1,4 +1,5 @@
 import "./App.css";
+import BiologyToday from "./components/biologyToday";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <header className="App-header">
         <p>My really cool blog site</p>
       </header>
+      <BiologyToday />
     </div>
   );
 }
