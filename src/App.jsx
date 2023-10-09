@@ -1,3 +1,4 @@
+import AutoReview from "./components/autoReview";
 import "./App.css";
 import BiologyToday from "./components/biologyToday";
 
@@ -13,6 +14,7 @@ function App() {
         <p>My really cool blog site</p>
       </header>
       <BiologyToday />
+      <AutoReview />
     </div>
   );
 }
